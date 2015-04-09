@@ -18,6 +18,7 @@ server.start(function () {
 2. Ading route
 --------------
 ```javascript
+//GET /
 server.route({
     method: 'GET',
     path: '/',
@@ -25,7 +26,7 @@ server.route({
         reply('Hello, world!');
     }
 });
-
+// GET /{name}
 server.route({
     method: 'GET',
     path: '/{name}',
