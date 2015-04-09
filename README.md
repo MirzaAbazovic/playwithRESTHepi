@@ -4,18 +4,20 @@ Expoloring hepi REST by making simple project
 
 1. Creating server
 --------------
-'''javascript
+```javascript
 var Hapi = require('hapi');
 var server = new Hapi.Server();
 server.connection({ port: 8080 });
 server.start(function () {
     console.log('Server running at:', server.info.uri);
 });
-'''
+```
+
+
 
 2. Ading route
 --------------
-'''javascript
+```javascript
 server.route({
     method: 'GET',
     path: '/',
@@ -31,4 +33,4 @@ server.route({
         reply('Hello, ' + encodeURIComponent(request.params.name) + '!');
     }
 });
-'''
+```
