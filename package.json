@@ -1,0 +1,15 @@
+{
+  "name": "RESTHapi",
+  "version": "1.0.0",
+  "description": "Play with REST in hapi",
+  "main": "index.js",
+  "dependencies": {
+    "hapi": "^8.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
