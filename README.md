@@ -1,4 +1,6 @@
 # Playing with REST using hepi.js
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/MirzaAbazovic/playwithRESTHepi.svg)](https://greenkeeper.io/)
 Playing with REST using hepi
 Expoloring hepi REST by making simple project
 
