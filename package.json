@@ -4,7 +4,7 @@
   "description": "Play with REST in hapi",
   "main": "index.js",
   "dependencies": {
-    "hapi": "^8.4.0"
+    "hapi": "^16.5.0"
   },
   "devDependencies": {},
   "scripts": {
